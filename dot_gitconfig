@@ -1,0 +1,13 @@
+[user]
+	email = aro.ibrahim@bedag.ch
+	name = Ibrahim Aro
+	signingkey = D763860269B22301
+[init]
+	templateDir = /home/aib/.git-template
+[commit]
+	gpgsign = true
+
+# [format]
+#        signOff = true
+[alias]
+    mr = !sh -c 'git fetch $1 merge-requests/$2/head:mr-$1-$2 && git checkout mr-$1-$2' -
